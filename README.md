@@ -1,5 +1,9 @@
 # Bom
 
+[![Travis](https://img.shields.io/travis/shufo/bom.svg)](https://travis-ci.org/shufo/bom)
+[![Hex.pm](https://img.shields.io/hexpm/v/bom.svg)](https://hex.pm/packages/bom)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-9768d1.svg)](https://hexdocs.pm/bom)
+
 An elixir library for working with BOM (byte order mark).
 
 ## Installation
