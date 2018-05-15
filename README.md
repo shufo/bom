@@ -7,7 +7,7 @@ An elixir library for working with BOM (byte order mark).
 ```elixir
 def deps do
   [
-    {:bom, "~> 0.1.0"}
+    {:bom, "~> 0.1.1"}
   ]
 end
 ```
