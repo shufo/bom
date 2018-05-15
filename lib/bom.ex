@@ -1,4 +1,4 @@
-defmodule Bom do
+defmodule BOM do
   @moduledoc """
   Documentation for Bom.
   """
@@ -10,7 +10,7 @@ defmodule Bom do
 
   ## Examples
 
-      iex> Bom.add("hello")
+      iex> BOM.add("hello")
       "\uFEFFhello" 
 
   """
@@ -24,7 +24,7 @@ defmodule Bom do
   ## Examples
 
       iex> File.write!("test/fixtures/test.csv", "test") 
-      iex> Bom.file_add("test/fixtures/test.csv")
+      iex> BOM.file_add("test/fixtures/test.csv")
       iex> File.read!("test/fixtures/test.csv") 
       "\uFEFFtest"
 

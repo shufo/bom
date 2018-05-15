@@ -1,4 +1,4 @@
-defmodule BomTest do
+defmodule BOMTest do
   use ExUnit.Case
-  doctest Bom
+  doctest BOM
 end

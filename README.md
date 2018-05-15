@@ -14,18 +14,18 @@ end
 
 ## Usage
 
-* Add Bom to string
+* Add BOM to string
 
 ```elixir
-iex> Bom.add("test")
+iex> BOM.add("test")
 "\uFEFFtest"
 ```
 
-* Add Bom to file
+* Add BOM to file
 
 ```elixir
 iex> File.write!("test.csv", "hello")
-iex> Bom.file_add("test.csv")
+iex> BOM.file_add("test.csv")
 
 $ file test.csv
 test.csv: UTF-8 Unicode (with BOM) text, with no line terminators
